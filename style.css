@@ -1,3 +1,20 @@
+
+/*BASE STYLES*/
+
 h1{
 	text-align: center;
+	color: #FF6B6B;
 }
+
+.item{
+	background: #4ECDC4;
+	outline: 5px solid #292F36;
+	margin: 20px;
+	padding: 10px;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+/*END BASE STYLES*/
