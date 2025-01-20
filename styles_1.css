@@ -1,24 +1,25 @@
 *{
 	gap: 50px;
+	text-align: center;
+	padding: 30px;
+	background: #C4E0F9;
 }
 
 .container{
 	display:flex;
 	padding: 15px;
 	height: 300px;
-	
-	
 }
 
 .item{
 	background: #EEE5E9;
-	outline: 5px solid red;
+	outline: 5px solid #67AAF9;
 	padding: 50px;
 	color: #FF6B6B;
 }
 
 .row{
-	outline: 5px solid blue;
+	outline: 5px solid #2EC0F9;
 }
 
 .row-1 .item{
@@ -31,6 +32,11 @@
 	display: flex;
 	flex:1;
 	justify-content: space-evenly;
+	
+}
+
+.row-2 .row{
+	outline: 5px solid #B95F89;
 }
 
 .row-3 .item{
@@ -39,12 +45,21 @@
 	justify-content: space-evenly;
 }
 
+.inner .item .row-2{
+	display: flex;
+	flex: 1;
+}
+
 
 .row.boxes{
 	flex: 1;
 	align-items: center;
-	text-align: center;
 	height: 100px;
+}
+
+.innermost{
+	outline: 5px solid #B95F89;
+	background: #9BBDF9;
 }
 
 #subsection{
@@ -52,6 +67,12 @@
 	flex: 1;
 	justify-content: center;
 	text-align: center;
-	
 }
+
+#columnItem{
+	outline: 5px solid #B95F89;
+	background: #9BBDF9;
+}
+
+
 
