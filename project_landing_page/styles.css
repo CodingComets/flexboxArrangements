@@ -1,0 +1,19 @@
+/*STYLES*/
+
+*{
+	font-family: "Lucida Console", "Courier New", monospace;
+	outline: 1px solid red;
+}
+
+/* Formatting */ 
+.row_one .header,
+.row_one .subheader{
+	display: flex;
+	justify-content: space-around;
+}
+
+/* Styling */
+
+.header_logo{
+	font-size: 50px;
+}
