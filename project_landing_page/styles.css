@@ -9,15 +9,20 @@
 .row-one .header,
 .row-one .subheader{
 	display: flex;
-	justify-content: space-around;
-	
+	justify-content: space-between;
+}
+
+.header{
+	padding: 25px;
 }
 
 .row-one{
 	background: #1F2937;
 	color: #F9FAF8;
 	padding: 20px;
-	height: 300px;
+	padding-left: 100px;
+	padding-right: 100px;
+	height: 700px;
 }
 
 .link{
@@ -34,4 +39,15 @@
 
 .subheader-text{
 	flex-wrap: wrap;
+}
+
+.information-box,
+.image-container{
+	padding: 25px;
+}
+
+.image-container{
+	margin: 15px;
+	padding: 40px;
+	background: grey;
 }
