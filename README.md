@@ -1,2 +1,4 @@
 # flexboxArrangements
-Repo holding various flexbox arrangements for practice
+This repository holds the landing page project from the Odin project
+Aditionally, it also hold various css flexbox patterns for practice.
+
