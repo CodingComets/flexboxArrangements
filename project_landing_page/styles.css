@@ -2,7 +2,7 @@
 
 *{
 	font-family: "Lucida Console", "Courier New", monospace;
-	outline: 1px solid red;
+	outline: 1px solid transparent;
 }
 
 /* Formatting */ 
@@ -12,16 +12,23 @@
 	justify-content: space-between;
 }
 
+.header{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 .information-box .header-title{
-	font-size: 30px;
+	font-size: 48px;
+	font-weight: 900;
+	flex-wrap: wrap;
 }
 
 .row-one{
 	background: #1F2937;
 	color: #F9FAF8;
 	padding: 20px;
-	padding-left: 100px;
-	padding-right: 100px;
+	padding-left: 150px;
+	padding-right: 150px;
 	height: 600px;
 }
 
@@ -54,4 +61,8 @@
 	margin: 15px;
 	padding: 40px;
 	background: grey;
+}
+
+.button1{
+	color: blue;
 }
