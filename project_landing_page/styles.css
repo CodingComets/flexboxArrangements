@@ -66,3 +66,12 @@
 .button1{
 	color: blue;
 }
+
+.sub-elements{
+	display:flex;
+	justify-content: center;
+}
+
+.element{
+	margin: 20px;
+}
