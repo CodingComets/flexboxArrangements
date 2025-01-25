@@ -2,7 +2,7 @@
 
 *{
 	font-family: "Lucida Console", "Courier New", monospace;
-	outline: 1px solid blue;
+	outline: 1px solid transparent;
 }
 
 /* Formatting */ 
@@ -73,10 +73,31 @@
 }
 
 .element{
-	margin: 20px;
+	border-radius: 15px;
+	outline: 2px solid #3882F6;
+	padding: 20px;
+	width: 100px;
+	height: 100px; 
+	margin: 10px;
 }
 
 .subheader-two{
 	text-align: center;
-	padding: 10px;
+	padding-top: 50px;
+	height: 40px;
+	font-weight: bold;
+}
+
+.image-text{
+	text-wrap: balance;
+	font-size: 10px;
+	color: #1F2937;
+}
+.box-content{
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+	height: 200px;
+	width: 160px;
+	justify-content: center;
 }
