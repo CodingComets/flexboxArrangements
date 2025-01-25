@@ -2,7 +2,7 @@
 
 *{
 	font-family: "Lucida Console", "Courier New", monospace;
-	outline: 1px solid transparent;
+	outline: 1px solid blue;
 }
 
 /* Formatting */ 
@@ -74,4 +74,9 @@
 
 .element{
 	margin: 20px;
+}
+
+.subheader-two{
+	text-align: center;
+	padding: 10px;
 }
