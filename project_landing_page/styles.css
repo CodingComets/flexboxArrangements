@@ -2,7 +2,7 @@
 
 *{
 	font-family: "Lucida Console", "Courier New", monospace;
-	outline: 1px solid transparent;
+	outline: 1px solid blue;
 }
 
 /* Formatting */ 
@@ -58,6 +58,7 @@
 }
 
 .image-container{
+	border-radius: 30px;
 	margin: 15px;
 	padding: 40px;
 	background: grey;
@@ -83,7 +84,7 @@
 
 .subheader-two{
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 35px;
 	height: 40px;
 	font-weight: bold;
 }
