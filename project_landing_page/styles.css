@@ -2,7 +2,7 @@
 
 *{
 	font-family: "Lucida Console", "Courier New", monospace;
-	outline: 1px solid blue;
+	outline: 1px solid transparent;
 }
 
 /* Formatting */ 
@@ -101,4 +101,19 @@
 	height: 200px;
 	width: 160px;
 	justify-content: center;
+}
+
+.row-two{
+	padding: 50px;
+}
+
+.row-three{
+	background: #E5E7EB;
+	padding: 50px;
+	padding-left: 600px;
+	padding-right: 600px;
+}
+
+.author{
+	text-align: right;
 }
