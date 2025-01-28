@@ -2,7 +2,7 @@
 
 *{
 	font-family: "Lucida Console", "Courier New", monospace;
-	outline: 1px solid red;
+	outline: 1px solid transparent;
 }
 
 /* Formatting */ 
@@ -122,9 +122,24 @@
 	display: flex;
 	justify-content: center;
 	flex: 1;
+	padding: 30px;
+	border-radius: 15px;
 }
 
 .action-call{
 	width: 600px;
 	background: #3882f6;
+	padding: 30px;
+	padding-left: 60px;
+}
+
+#button2{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	padding-top: 60px;
+}
+
+.button2{
+	height: 20px;
 }
