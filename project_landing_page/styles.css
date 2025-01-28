@@ -123,3 +123,8 @@
 	justify-content: center;
 	flex: 1;
 }
+
+.action-call{
+	width: 600px;
+	background: #3882f6;
+}
