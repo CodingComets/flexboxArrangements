@@ -2,7 +2,7 @@
 
 *{
 	font-family: "Lucida Console", "Courier New", monospace;
-	outline: 1px solid transparent;
+	outline: 1px solid red;
 }
 
 /* Formatting */ 
@@ -116,4 +116,10 @@
 
 .author{
 	text-align: right;
+}
+
+.row-four{
+	display: flex;
+	justify-content: center;
+	flex: 1;
 }
