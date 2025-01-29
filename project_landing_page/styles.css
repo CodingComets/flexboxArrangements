@@ -61,7 +61,7 @@
 	border-radius: 30px;
 	margin: 15px;
 	padding: 40px;
-	background: grey;
+	outline:2px solid #E5E7EB;
 }
 
 .button1{
