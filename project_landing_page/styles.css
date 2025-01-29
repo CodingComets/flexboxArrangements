@@ -122,12 +122,12 @@
 	display: flex;
 	justify-content: center;
 	flex: 1;
-	padding: 30px;
+	padding: 50px;
 	border-radius: 15px;
 }
 
 .action-call{
-	width: 600px;
+	width: 400px;
 	background: #3882f6;
 	padding: 30px;
 	padding-left: 60px;
