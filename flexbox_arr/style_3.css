@@ -1,13 +1,17 @@
 *{
-	outline: 2px solid red;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-.row-one,
-.row-two,
-.row-three,
-.row-four{
-	display: flex;
-	justify-content: space-evenly;
-	padding: 20px;
-	margin: 30px;
+.menu-container{
+	color: #fff;
+	background-color: #5995DA;
+	padding: 20px 0;
 }
+
+.menu{
+	border: 1px solid #fff;
+	width: 900px;
+}
+
